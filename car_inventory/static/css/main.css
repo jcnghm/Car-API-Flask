@@ -1,0 +1,145 @@
+/* Car Inventory API Stylesheet */
+
+/* Nav Styles */
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target Main Logo Image */
+.ct-nav img{
+    width: 35%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+    font-weight: 500;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid #144A14;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+ul#horizontal-list a:nth-last-child(1):hover{
+    background-color: #144A14;
+}
+
+/* End of Nav Styles */
+
+
+/*  HR LINES FORMATTING */
+hr {
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/* Start of Hero/Header Section Styles*/
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%
+}
+
+.btn-primary {
+    background-color: #144A14;
+}
+
+.btn-primary:hover{
+    background-color: black;
+}
+
+/* End of Hero/Header Section Styles*/
+
+
+/* Start of Middle Section Styles*/
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+    margin-top: 30vw;
+}
+
+#middle-text h2{
+    padding:1.5vw;
+}
+/* End of Middle Section Styles*/
+
+
+/* Start of Features Section Styles */
+#vehicles-img,#payment-img,#testing-img{
+    margin-bottom:10vh;
+    width: 250px;
+    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+#features-section{
+    margin: 8vw;
+}
+/* End of Features Section Styles */
+
+
+/* Start of Community Section Styles */
+#Drone-image{
+    width:50%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+/* End of Community Section Styles */
+
+/* Start of Footer Section Styles */
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
+/* End of Footer Section Styles */
+
+/* Profile Styles Section */
+.hero-section{
+    height: 95vh;
+    background-image:linear-gradient(to right bottom, rgba(30,115,172,0.7), rgba(142,57,153,0.6)), url(../images/truck2.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
