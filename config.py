@@ -14,5 +14,8 @@ class Config():
     """
 
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'You will never guess'
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABSE_URL') or 'sqlite:///' + os.path.join(basedir,'app.db')
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:PASSWORD HERE@127.0.0.1:5432/car-collection'
     SQLALCHEMY_TRACK_MODIFICATIONS = False # Turn off update messages from the sqlalchemy
+
+
+    # Save this for later os.environ.get('DATABSE_URL') or 'sqlite:///' + os.path.join(basedir,'app.db')
