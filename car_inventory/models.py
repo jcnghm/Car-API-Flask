@@ -1,4 +1,4 @@
-
+# For the Database Table
 
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
